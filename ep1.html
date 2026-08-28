@@ -5,22 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+    .goal{
+        margin-left: 35px;
+        list-style: disc;
+    }
+    header{
+        background-color: rgb(107, 128, 0);
+        text-align: center;
+        color: white;
+        padding: 30px 20px;
+        font-family: "Caacupe One", sans-serif;
+       
+    }
+    header h1 {
+    font-size: 3em;
+}
+
+    nav a{
+        display: inline-block;
+        background-color: rgb(32, 47, 160);
+        color: white;
+        padding: 8px 18px;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+    .card{
+        background-color: white;
+        padding: 20px 25px;
+        margin: 20px 0;
+        border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+
+        
+    }
+    .hr{
+         border: none;
+        border-top: 2px solid blueviolet;
+    }
+    body {
+    background-color: #f0f2f5;
+    }
+    #footer{
+        text-align: center;
+    }
+</style>
 <body>
-    <hr>
+    
+<header>
     <h1> <b></b>VANN THAIHOUR</h1>
+    <nav>
     <a href="">Home</a>
     <a href="">Projects</a>
     <a href="">Contact</a>
+    </nav>
+</header>
+<section class="card">
     <h2><b></b> About Me</h2>
+     <hr class="hr">
     <div>
-    <p>Hello! I am a passoinate computer science who love crafting interfaces. My goal is to byild <b>inclusive , human and technology</b></p>
+    <p>Hello! I am a passoinate computer science who love crafting interfaces. My goal is to build <b>inclusive , human and technology</b></p>
     <p>Currently I am expanding my skills</p>
-    <hr>
+    
     </div>
+</section>
+<section class="card">
      <h2><b></b>Skils</h2>
+      <hr class="hr">
      <div>
     <ol>
-        <ul>
+        <ul >
             <li>Font-end Development</li>
                 <ul>
                     <li>HTML5 semantic</li>
@@ -33,11 +88,14 @@
             
         </ul>
     </ol>
-    <hr>
+    
     </div>
+</section>
+<section class="card">
     <h2><b>This Month's Goals</b></h2>
+     <hr class="hr">
     <div>
-    <ol>
+    <ul class="goal">
         
             <li>Font-end Development</li>
                 
@@ -46,10 +104,13 @@
             <li>Creative Problem solving</li>
             
         
-    </ol>
-    <hr>
+    </ul>
+   
    </div>
+</section>
+<section class="card">
    <h2><b>Find Me Online</b></h2>
+    <hr class="hr">
      <ol>
         <ul>
             <li><a href="https://github.com/thaihourvann-max">GitHub Profile</a></li>
@@ -58,8 +119,10 @@
 
         </ul>
     </ol>
-    <hr>
-    <p>&copy; 2026 Vann Thaihour. All rights reserved.</p>
+</section>
+   
+
+    <p id="footer">&copy; 2026 Vann Thaihour. All rights reserved.</p>
 
 
 </body>
